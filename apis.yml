@@ -1,11 +1,15 @@
 aid: chainguard
 name: Chainguard
 description: >-
-  Chainguard provides minimal, hardened container images designed to reduce the attack surface of containerized applications.
+  Chainguard provides hardened, minimal container images and tools for securing the software supply chain, reducing vulnerabilities and attack surface in containerized applications.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Containers
+  - Security
+  - Supply Chain
+  - Container Images
+  - Cloud Native
 url: >-
   https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -15,14 +19,33 @@ apis:
   - aid: chainguard:chainguard
     name: Chainguard
     description: >-
-      Chainguard provides minimal, hardened container images designed to reduce the attack surface of containerized applications.
-    humanURL: https://github.com/api-evangelist/chainguard
+      Chainguard provides hardened, minimal container images and tools for securing the software supply chain, reducing vulnerabilities and attack surface in containerized applications.
+    humanURL: https://www.chainguard.dev/
     tags:
       - Containers
-    properties: []
+      - Security
+      - Supply Chain
+      - Container Images
+    properties:
+      - type: Documentation
+        url: https://edu.chainguard.dev/
+      - type: Getting Started
+        url: https://edu.chainguard.dev/chainguard/chainguard-images/getting-started/
 common:
   - type: Website
-    url: https://github.com/api-evangelist/chainguard
+    url: https://www.chainguard.dev/
+  - type: Documentation
+    url: https://edu.chainguard.dev/
+  - type: Blog
+    url: https://www.chainguard.dev/unchained
+  - type: GitHub Organization
+    url: https://github.com/chainguard-dev
+  - type: Pricing
+    url: https://www.chainguard.dev/pricing
+  - type: Sign Up
+    url: https://console.chainguard.dev/
+  - type: Contact
+    url: https://www.chainguard.dev/contact
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
