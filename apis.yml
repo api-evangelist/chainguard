@@ -5,11 +5,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Cloud Native
+  - Container Images
   - Containers
   - Security
   - Supply Chain
-  - Container Images
-  - Cloud Native
 url: >-
   https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/apis.yml
 created: '2026-03-26'
@@ -22,10 +22,10 @@ apis:
       Chainguard provides hardened, minimal container images and tools for securing the software supply chain, reducing vulnerabilities and attack surface in containerized applications.
     humanURL: https://www.chainguard.dev/
     tags:
+      - Container Images
       - Containers
       - Security
       - Supply Chain
-      - Container Images
     properties:
       - type: Documentation
         url: https://edu.chainguard.dev/
