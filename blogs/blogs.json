@@ -1,0 +1,13 @@
+{
+  "repo": "chainguard",
+  "feeds": [
+    {
+      "source": "https://www.chainguard.dev/unchained",
+      "feed_url": "https://www.chainguard.dev/unchained/rss.xml",
+      "saved": 10,
+      "title": "Chainguard: Unchained"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:25:07Z"
+}
