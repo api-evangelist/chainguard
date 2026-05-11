@@ -267,6 +267,13 @@ common:
       - name: Chainguard Containers
       - name: Wolfi OS
       - name: Custom Assembly
+  - type: Integrations
+    url: https://www.chainguard.dev/partners
+integrations:
+  - name: Become a partner
+  - name: Register a deal
+  - name: Join Chainguard Commercial Builds
+  - name: AWS
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
