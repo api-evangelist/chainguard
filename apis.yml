@@ -2,7 +2,7 @@ aid: chainguard
 url: >-
   https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/apis.yml
 name: Chainguard
-x-type: company
+kind: company
 description: >-
   Chainguard builds, secures, and maintains a catalog of hardened, minimal
   container images and software supply chain security tools. Its flagship
