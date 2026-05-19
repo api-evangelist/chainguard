@@ -27,7 +27,7 @@ tags:
   - Software Supply Chain
   - Vulnerability Management
 created: '2026-03-26'
-modified: '2026-04-23'
+modified: '2026-05-19'
 position: Consumer
 specificationVersion: '0.19'
 apis:
@@ -269,6 +269,9 @@ common:
       - name: Custom Assembly
   - type: Integrations
     url: https://www.chainguard.dev/partners
+  - name: Agent Skills
+    url: https://www.chainguard.dev/unchained/introducing-chainguard-agent-skills
+    type: AgentSkill
 integrations:
   - name: Become a partner
   - name: Register a deal
