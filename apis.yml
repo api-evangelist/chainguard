@@ -163,7 +163,7 @@ common:
     url: https://github.com/chainguard-dev
   - type: Pricing
     url: https://www.chainguard.dev/pricing
-  - type: SignUp
+  - type: Signup
     url: https://console.chainguard.dev/
   - type: Console
     url: https://console.chainguard.dev/
@@ -271,7 +271,7 @@ common:
     url: https://www.chainguard.dev/partners
   - name: Agent Skills
     url: https://www.chainguard.dev/unchained/introducing-chainguard-agent-skills
-    type: AgentSkill
+    type: AgentSkills
 integrations:
   - name: Become a partner
   - name: Register a deal

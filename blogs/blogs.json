@@ -5,7 +5,14 @@
       "source": "https://www.chainguard.dev/unchained/rss.xml",
       "feed_url": "https://www.chainguard.dev/unchained/rss.xml",
       "title": "",
-      "saved": 2,
+      "saved": 11,
+      "method": "feed"
+    },
+    {
+      "source": "https://edu.chainguard.dev/index.xml",
+      "feed_url": "https://edu.chainguard.dev/index.xml",
+      "title": "",
+      "saved": 0,
       "method": "feed"
     },
     {
@@ -16,6 +23,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 68,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 83,
+  "fetched": "2026-06-27T12:03:07Z"
 }
