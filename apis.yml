@@ -149,6 +149,8 @@ apis:
       - type: Overview
         url: https://edu.chainguard.dev/chainguard/chainguard-images/overview/
 common:
+  - type: DomainSecurity
+    url: security/chainguard-domain-security.yml
   - type: Website
     url: https://www.chainguard.dev/
   - type: Documentation
