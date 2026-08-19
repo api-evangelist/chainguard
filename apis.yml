@@ -41,7 +41,7 @@ tags:
 created: '2026-03-26'
 modified: '2026-05-19'
 position: Consumer
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: chainguard:api-v2
     name: Chainguard API v2
