@@ -29,6 +29,16 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chainguard.png
 access: 3rd-Party
 tags:
+  - Cloud-Native
+  - Container Images
+  - Containers
+  - DevSecOps
+  - Kubernetes
+  - Registry
+  - Security
+  - Software Supply Chain
+  - Vulnerability Management
+tags_raw:
   - Cloud Native
   - Container Images
   - Containers
