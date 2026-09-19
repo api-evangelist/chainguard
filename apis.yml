@@ -77,6 +77,11 @@ apis:
     humanURL: https://edu.chainguard.dev/chainguard/api/spec-api-v2/
     baseURL: https://console-api.enforce.dev
     tags:
+      - Identity and Access Management
+      - REST
+      - Registry
+      - Vulnerabilities
+    tags_raw:
       - IAM
       - REST
       - Registry
@@ -98,6 +103,12 @@ apis:
     humanURL: https://edu.chainguard.dev/chainguard/api/spec-api-v1/
     baseURL: https://console-api.enforce.dev
     tags:
+      - Identity and Access Management
+      - Legacy
+      - REST
+      - Registry
+      - Vulnerabilities
+    tags_raw:
       - IAM
       - Legacy
       - REST
