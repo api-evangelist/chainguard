@@ -51,3 +51,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: chainguard-datadog-own
+  label: Datadog (own)
+  partner: datadog
+  partner_name: Datadog (own)
+  category: Containers
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://github.com/DataDog/integrations-extras/tree/master/chainguard
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
