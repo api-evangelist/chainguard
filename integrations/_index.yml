@@ -27,3 +27,27 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: chainguard-github-marketplace-apps
+  label: GitHub Marketplace (apps)
+  partner: github
+  partner_name: GitHub Marketplace (apps)
+  type: marketplace
+  marketplace: github-apps
+  channel: partner-built
+  evidence: https://github.com/marketplace/chainguard-dev
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: chainguard-github-marketplace-actions
+  label: GitHub Marketplace (actions)
+  partner: github-actions
+  partner_name: GitHub Marketplace (actions)
+  type: marketplace
+  marketplace: github-actions
+  channel: partner-built
+  evidence: https://github.com/marketplace/actions/update-the-image-digest
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
