@@ -221,3 +221,46 @@
     detected: '2026-10-21'
   status: not-a-workflow
   arazzo: null
+- slug: chainguard-cve-program-cve-numbering-authorities
+  label: CVE Program (CVE Numbering Authorities)
+  partner_name: CVE Program (CVE Numbering Authorities)
+  category: Vulnerability disclosure (CVE Numbering Authority)
+  type: register
+  channel: standard-directory
+  evidence: https://www.cve.org/PartnerInformation/ListofPartners/partner/chainguard
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: CVE Program CNA list (github.com/CVEProject/cve-website CNAsList.json @ 239d3d9b68e0)
+    standard: CVE Program CNA Operational Rules (CVE Numbering Authority)
+    spec_file: null
+    role: cve-numbering-authority
+    registered_name: Chainguard, Inc.
+    matched_domain: chainguard.dev
+    matched_by: domain
+    cna_id: CNA-2026-0068
+    cna_short_name: chainguard
+    cna_types:
+    - Vendor
+    - Hosted Service
+    - Open Source
+    - Researcher
+    cna_roles:
+    - CNA
+    scope: Chainguard Containers/Libraries/VMs, tooling, and vulnerabilities introduced by our packaging or patching
+      of Wolfi packages (upstream flaws in packaged software excluded).<br/><br/>Additionally, vulnerabilities in
+      open source projects identified through the Athena coalition, where upstream has remediated without an assigned
+      identifier, or where no maintainer is active, and no more specific CNA cov
+    top_level_root: Cybersecurity and Infrastructure Security Agency (CISA)
+    root: Cybersecurity and Infrastructure Security Agency (CISA) Industrial Control Systems (ICS)
+    security_advisories:
+    - https://images.chainguard.dev/security
+    disclosure_policy:
+    - https://www.chainguard.dev/legal/coordinated-vulnerability-handling-policy
+    country: USA
+    signal_note: listing as a CVE Numbering Authority = participation (a public commitment to assign CVE IDs and
+      publish advisories for its scope); never a count of CVEs
+    detected_by: sweep-vulnerability-disclosure-cna.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null
