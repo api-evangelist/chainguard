@@ -1,4 +1,4 @@
-# Chainguard (chainguard)
+# Chainguard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,160 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Chainguard builds, secures, and maintains a catalog of hardened, minimal container images and software supply chain security tools. Its flagship Chainguard Images rebuild open source software from source daily on a zero-known-CVE promise, signed with Sigstore, and distributed through the cgr.dev registry. The Chainguard platform exposes REST APIs, a command-line tool (chainctl), a Terraform provider, and an SDK for managing organizations, IAM, image repositories, registries, vulnerabilities, and event subscriptions. Chainguard Libraries extends the model to language ecosystems (Java, Python, Go, Node.js).
+Chainguard builds, secures, and maintains a catalog of hardened, minimal container images and software supply chain security tools. Its flagship Chainguard Images rebuild open source software from source daily on a zero-known-CVE promise, signed with Sigstore, and distributed through the cgr.dev registry. The Chainguard platform exposes REST APIs, a command- line tool (chainctl), a Terraform provider, and an SDK for managing organizations, IAM, image repositories, registries, vulnerabilities, and event subscriptions. Chainguard Libraries extends the model to language ecosystems (Java, Python, Go, Node.js).
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/apis.yml)
+**Areas:** Cloud-Native · Container Images · Containers · DevSecOps · Kubernetes · Registry · Security · Software Supply Chain · Vulnerability Management
 
-## Scope
+## Chainguard on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
-- **x-type:** company
+Everything profiled for Chainguard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chainguard/](https://apis.io/providers/chainguard/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (6)
 
-- Cloud Native, Container Images, Containers, DevSecOps, Kubernetes, Registry, Security, Software Supply Chain, Vulnerability Management
+- [Chainguard API v2](https://apis.io/apis/chainguard/api-v2/) — Chainguard API v2 is the current REST API for the Chainguard platform. Endpoints cover Identity and Access Management (IAM), image registry operations, and…
+- [Chainguard API v1](https://apis.io/apis/chainguard/api-v1/) — Chainguard API v1 is the legacy REST API for the Chainguard platform, covering the same broad surface as v2 (IAM, registry, vulnerabilities) and remaining…
+- [Chainguard Unified API Spec](https://apis.io/apis/chainguard/unified-api-spec/) — The unified Chainguard API specification combines API v1 and v2 definitions in a single reference, useful for tool builders and readers who need a…
+- [Chainguard chainctl CLI](https://apis.io/apis/chainguard/chainctl/) — chainctl is the official command-line interface for the Chainguard platform. It provides commands for authentication, IAM, image management, registry…
+- [Chainguard Terraform Provider](https://apis.io/apis/chainguard/terraform-provider/) — The chainguard-dev/chainguard Terraform provider lets platform engineers provision and manage Chainguard resources (organizations, groups, identities,…
+- [Chainguard Images Registry (cgr.dev)](https://apis.io/apis/chainguard/images-registry/) — cgr.dev is the OCI-compliant distribution endpoint for Chainguard Images. Standard OCI and Docker tooling (docker pull, cosign verify, oras, crane, etc.)…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-26
-- **Modified:** 2026-04-23
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Chainguard API v2
+Authentication, trust centre, and vulnerability disclosure.
 
-Chainguard API v2 is the current REST API for the Chainguard platform. Endpoints cover Identity and Access Management (IAM), image registry operations, and vulnerability data under `/iam/v2beta1/`, `/registry/v2beta1/`, and `/vulnerabilities/v2beta1/`. v2 introduces cursor-based pagination, server-side ordering, consistent resource patterns, and structured error responses.
+- [Chainguard Domain Security](https://apis.io/security/chainguard/chainguard-domain-security/)
 
-**Human URL:** [https://edu.chainguard.dev/chainguard/api/spec-api-v2/](https://edu.chainguard.dev/chainguard/api/spec-api-v2/)
-**Base URL:** `https://console-api.enforce.dev`
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- IAM, REST, Registry, Vulnerabilities
+- [Chainguard Plans Pricing](https://apis.io/plans/chainguard/chainguard-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://edu.chainguard.dev/chainguard/api/spec-api-v2/)
-- [Tutorial](https://edu.chainguard.dev/chainguard/api/api-v2-tutorial/)
-- [Authentication](https://edu.chainguard.dev/chainguard/api/authentication/)
+Published request limits.
 
-### Chainguard API v1
+- [Chainguard Rate Limits](https://apis.io/rate-limits/chainguard/chainguard-rate-limits/)
 
-Chainguard API v1 is the legacy REST API for the Chainguard platform, covering the same broad surface as v2 (IAM, registry, vulnerabilities) and remaining available for existing integrations while customers migrate to v2.
+#### FinOps (1)
 
-**Human URL:** [https://edu.chainguard.dev/chainguard/api/spec-api-v1/](https://edu.chainguard.dev/chainguard/api/spec-api-v1/)
-**Base URL:** `https://console-api.enforce.dev`
+What the API costs to run, by operation.
 
-#### Tags
+- [Chainguard Finops](https://apis.io/finops/chainguard/chainguard-finops/)
 
-- IAM, Legacy, REST, Registry, Vulnerabilities
+## Where to find this API
 
-#### Properties
-
-- [Documentation](https://edu.chainguard.dev/chainguard/api/spec-api-v1/)
-- [Authentication](https://edu.chainguard.dev/chainguard/api/authentication/)
-
-### Chainguard Unified API Spec
-
-The unified Chainguard API specification combines API v1 and v2 definitions in a single reference, useful for tool builders and readers who need a consolidated view of the platform surface.
-
-**Human URL:** [https://edu.chainguard.dev/chainguard/api/spec/](https://edu.chainguard.dev/chainguard/api/spec/)
-
-#### Tags
-
-- OpenAPI, Reference
-
-#### Properties
-
-- [Documentation](https://edu.chainguard.dev/chainguard/api/spec/)
-
-### Chainguard chainctl CLI
-
-chainctl is the official command-line interface for the Chainguard platform. It provides commands for authentication, IAM, image management, registry operations, event subscriptions, packages, libraries, and configuration. chainctl uses the same underlying APIs (v1 and v2) and is often the fastest path to automating Chainguard workflows.
-
-**Human URL:** [https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl/](https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl/)
-
-#### Tags
-
-- Automation, CLI, Tooling
-
-#### Properties
-
-- [Documentation](https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl/)
-- [Authentication](https://edu.chainguard.dev/chainguard/chainctl/chainctl-docs/chainctl_auth/)
-- [GitHub Repository](https://github.com/chainguard-dev/chainctl-releases)
-
-### Chainguard Terraform Provider
-
-The chainguard-dev/chainguard Terraform provider lets platform engineers provision and manage Chainguard resources (organizations, groups, identities, roles, subscriptions, and more) as infrastructure-as-code through the Chainguard API.
-
-**Human URL:** [https://registry.terraform.io/providers/chainguard-dev/chainguard/latest/docs](https://registry.terraform.io/providers/chainguard-dev/chainguard/latest/docs)
-
-#### Tags
-
-- IaC, Provisioning, Terraform
-
-#### Properties
-
-- [Documentation](https://registry.terraform.io/providers/chainguard-dev/chainguard/latest/docs)
-- [GitHub Repository](https://github.com/chainguard-dev/terraform-provider-chainguard)
-
-### Chainguard Images Registry (cgr.dev)
-
-cgr.dev is the OCI-compliant distribution endpoint for Chainguard Images. Standard OCI and Docker tooling (`docker pull`, `cosign verify`, `oras`, `crane`, etc.) can authenticate with a pull token or IAM credentials to list tags, fetch images, and verify signatures and attestations.
-
-**Human URL:** [https://edu.chainguard.dev/chainguard/chainguard-images/](https://edu.chainguard.dev/chainguard/chainguard-images/)
-**Base URL:** `https://cgr.dev`
-
-#### Tags
-
-- Cosign, Distribution, OCI, Registry, Sigstore
-
-#### Properties
-
-- [Documentation](https://edu.chainguard.dev/chainguard/chainguard-images/)
-- [Overview](https://edu.chainguard.dev/chainguard/chainguard-images/overview/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.chainguard.dev/)
 - [Documentation](https://edu.chainguard.dev/)
-- [Developer Portal](https://edu.chainguard.dev/chainguard/api/)
-- [Academy](https://edu.chainguard.dev/)
-- [Blog](https://www.chainguard.dev/unchained)
-- [GitHub](https://github.com/chainguard-dev)
 - [Pricing](https://www.chainguard.dev/pricing)
-- [Sign Up / Console](https://console.chainguard.dev/)
-- [Contact](https://www.chainguard.dev/contact)
-- [Careers](https://www.chainguard.dev/careers)
+- [Blog](https://www.chainguard.dev/unchained)
 - [Security](https://www.chainguard.dev/trust)
-- [Status Page](https://status.chainguard.dev/)
-- [Terms of Service](https://www.chainguard.dev/legal/terms)
-- [Privacy Policy](https://www.chainguard.dev/legal/privacy)
-- [X](https://x.com/chainguard_dev)
-- [LinkedIn](https://www.linkedin.com/company/chainguard/)
-- [YouTube](https://www.youtube.com/@chainguard_dev)
+- [Terms of service](https://www.chainguard.dev/legal/terms)
+- [Privacy policy](https://www.chainguard.dev/legal/privacy)
+- [Status](https://status.chainguard.dev/)
 
-## Features
+## API Evangelist rating
 
-Hardened Images, Minimal Images, Distroless, Zero-Known-CVE, SBOMs, SLSA Attestations, Sigstore Signatures, Cosign Verification, Daily Rebuilds, Wolfi OS Base, OCI Registry, IAM, RBAC, Audit Logs, Event Subscriptions, Vulnerability Feed, Custom Assembly, FIPS Images, STIG Hardening, Libraries for Java/Python/Go/Node.js, Terraform Provider, CLI (chainctl), REST API
+**Kin Score 22.8** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 31.6 |
 
-Software Supply Chain Security, Container Hardening, CVE Remediation, Compliance (FedRAMP, FIPS, PCI, HIPAA), Open Source Dependency Security, Secure Base Images, Air-Gapped Distribution, Kubernetes Workload Security, CI/CD Integration, Image Signing and Verification, Vulnerability Scanning Reduction
+**Agent readiness 6.4** — agent-aware
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-Kubernetes, Docker, OCI, Sigstore, Cosign, SLSA, Terraform, GitHub Actions, GitLab CI, Jenkins, Argo CD, Tekton, Harbor, Quay, Amazon ECR, Google Artifact Registry, Azure Container Registry, Snyk, Prisma Cloud, Wiz, Trivy, Grype, Syft, AWS, Google Cloud, Azure
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
 
-## Products
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chainguard/](https://apis.io/providers/chainguard/).
 
-Chainguard Images, Chainguard Libraries, Chainguard Enforce, Chainguard VMs, Chainguard Containers, Wolfi OS, Custom Assembly
+## How this profile is made
 
-## Maintainers
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-**FN:** Kin Lane
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chainguard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**Email:** kin@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chainguard/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
